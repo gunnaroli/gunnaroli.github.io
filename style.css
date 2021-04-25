@@ -68,10 +68,10 @@ body {
 }
 
 .buttons button {
-  border: 2px solid #fff;
-  background-color: transparent;
+  border: 2px solid #f00;
+  xbackground-color: transparent;
   opacity: 0.5;
-  color: #fff;
+  color: #f00;
   cursor: pointer;
   padding: 13px 15px;
   border-radius: 50%;
@@ -79,8 +79,9 @@ body {
 }
 
 .buttons button:hover {
-  background-color: #fff;
-  color: #333;
+  border: 2px solid #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 @media (max-width: 500px) {
@@ -94,8 +95,6 @@ body {
     transform: translateY(-300px);
   }
 }
-
-
 
 /* Backgorund Images */
  
@@ -112,12 +111,12 @@ body {
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('img/4.jpeg') no-repeat
+  background: url('img/1_milli.PNG') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('img/5.jpg') no-repeat
-    center top/cover;
+  background: url('img/kp.jpg') no-repeat
+    center center/cover;
 } 
 .slide:nth-child(6)  {
   background: url('img/6.png') no-repeat
