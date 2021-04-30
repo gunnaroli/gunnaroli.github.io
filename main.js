@@ -37,6 +37,23 @@ const prevSlide = () => {
   setTimeout(() => current.classList.remove('current'));
 };
 
+document.addEventListener('keydown', function(e) {
+  switch (e.keyCode) {
+      case 37:
+          prevSlide();
+          break;
+      case 38:
+         nextSlide();
+          break;
+      case 39:
+          nextSlide();
+          break;
+      case 40:
+          prevSlide();
+          break;
+  }
+});
+
 // Button events
 next.addEventListener('click', e => {
   nextSlide();
