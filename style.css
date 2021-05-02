@@ -22,6 +22,14 @@ h1 {
   font-size: 32px;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
 .smallScreen {
   color: white;
   visibility: hidden;
@@ -161,6 +169,11 @@ button#notFullscreen {
   padding-bottom: 10%;
   color: white;
 }
+
+.narrow {
+  padding-left: 30vw;
+}
+
 .mainTitle {
   font-size: 90px;
   color: rgba(255, 255, 255, 0.60);
@@ -406,7 +419,7 @@ button#notFullscreen {
   background-size: 90vw;
   xbackground-color: rgb(40, 30, 18);
 }
-@media screen and (max-width: 1599px), screen and (max-height: 950px) {
+@media screen and (max-width: 1550px), screen and (max-height: 900px) {
   .slide {
     visibility: hidden;
     background-size: 1vh;
