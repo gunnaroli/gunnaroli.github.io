@@ -406,7 +406,7 @@ button#notFullscreen {
   background-size: 90vw;
   xbackground-color: rgb(40, 30, 18);
 }
-@media screen and (max-width: 1599px), screen and (max-height: 900px) {
+@media screen and (max-width: 1599px), screen and (max-height: 950px) {
   .slide {
     visibility: hidden;
     background-size: 1vh;
